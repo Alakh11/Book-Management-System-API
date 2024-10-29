@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "publishConfig": {
-   // "registry": "https://npm.pkg.github.com/Alakh11"
+  
 },
 
   "dependencies": {
