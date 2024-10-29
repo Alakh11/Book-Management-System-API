@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@alakh11"
+    "registry": "https://github.com/Alakh11/Book-Management-System-API"
 },
 
   "dependencies": {
