@@ -10,9 +10,8 @@
   "license": "ISC",
   "description": "",
   "publishConfig": {
-  "registry": "https://npm.pkg.github.com/Alakh11"
-},
-
+    "registry": "https://npm.pkg.github.com/Alakh11"
+  },
   "dependencies": {
     "express": "^4.21.1",
     "morgan": "^1.10.0"
