@@ -20,7 +20,7 @@
     "url": "git+https://github.com/Alakh11/bms-api.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Alakh11"
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
