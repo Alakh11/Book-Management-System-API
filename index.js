@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
+const bookRoutes = require('./routes/books');
+app.use('/api/books', bookRoutes);
+
 
 app.use(express.json());
 
@@ -49,3 +52,10 @@ app.delete('/api/books/:id', (req, res) => {
     books.splice(id, 1);
     res.status(204).send();
 });
+
+require('dotenv').config();
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+
