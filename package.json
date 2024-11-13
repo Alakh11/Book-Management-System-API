@@ -17,7 +17,7 @@
   "description": "Book-Management-System-Api",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Alakh11/bms-api.git"
+    "url": "git+https://github.com/Alakh11/bms-api.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/Alakh11"
