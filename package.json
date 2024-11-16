@@ -1,5 +1,5 @@
 {
-  "name": "@Alakh11/bms-api",
+  "name": "bms-api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
